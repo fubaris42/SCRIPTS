@@ -1,0 +1,18 @@
+[project]
+name = "pyscripts"
+version = "0.1.0"
+description = "A stupid collection of python scripts"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pillow",
+    "numpy",
+    "deepface",
+    "pymupdf",
+    "pytesseract",
+    "fastmrz",
+    "rembg",
+    "onnxruntime",
+    "black",
+    "tf-keras>=2.20.1",
+]
